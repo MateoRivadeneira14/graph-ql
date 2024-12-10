@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphQL Frontend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GraphQL Frontend</h1>
+
+    <h2>Usuarios</h2>
+    <button onclick="getUsers()">Obtener Usuarios</button>
+    <pre id="response">Aquí aparecerán los datos...</pre>
+
+    <h2>Crear Usuario</h2>
+    <input type="text" id="name" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="createUser()">Crear Usuario</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
